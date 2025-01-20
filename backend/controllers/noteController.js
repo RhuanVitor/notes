@@ -1,14 +1,17 @@
 const Note = require('../models/Note');
+const User = require('../models/User');
 
 exports.getNotes = async (req, res) => {
     const userId = req.userId
     const notes = await Note.find({ userId }, '-userId');
+    const user = await User.findById(userId);
+    const userEmail = user.email
 
     if(!notes){
         return res.status(422).json({ msg: "Nenhuma nota encontrada"});
     }
     
-    res.status(200).json({ notes });
+    res.status(200).json({ notes, userEmail });
 }
 
 exports.createNote = async (req, res) => {
