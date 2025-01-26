@@ -175,7 +175,7 @@ form p{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .list-item-1::before{
@@ -191,7 +191,7 @@ form p{
 }
 
 .list-item-1:hover{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .list-item-1 .text-box{
