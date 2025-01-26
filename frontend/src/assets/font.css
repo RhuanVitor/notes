@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'telka-wide';
+    src: url('./fonts/TelkaTRIAL-Wide-Black.otf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'telka-wide';
+    src: url('./fonts/TelkaTRIAL-Wide-Bold.otf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'telka-wide';
+    src: url('./fonts/TelkaTRIAL-Wide-Medium.otf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'telka-wide';
+    src: url('./fonts/TelkaTRIAL-Wide-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'telka-wide';
+    src: url('./fonts/TelkaTRIAL-Wide-Light.otf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
