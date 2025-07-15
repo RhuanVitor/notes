@@ -2,7 +2,7 @@
 Uma aplicação web de notas robusta e intuitiva que permite aos usuários criar, editar e organizar suas notas de forma eficiente. Com recursos de autenticação completos e salvamento automático.
 </br>
 </br>
-<h2>✨ Recursos</h2>
+<h2>Recursos</h2>
 
 *   **Autenticação Segura:**
     *   Registro de Usuários
@@ -15,16 +15,16 @@ Uma aplicação web de notas robusta e intuitiva que permite aos usuários criar
     *   **Excluir:** Remova notas que não são mais necessárias.
 *   **Salvamento Automático:** Todas as alterações nas notas são salvas automaticamente no banco de dados, eliminando a preocupação com perda de dados.
 
-<h2>🚀 Tecnologias Utilizadas</h2>
+<h2>Tecnologias Utilizadas</h2>
 
 Este projeto foi desenvolvido utilizando um stack moderno e eficiente, dividindo a aplicação em um frontend e um backend.
 
-<h3>🌐 Frontend</h3>
+<h3>Frontend</h3>
 
 *   **Vue.js:** Um framework progressivo para a construção de interfaces de usuário reativas e componentizadas.
 *   **Axios:** Um cliente HTTP baseado em Promises para fazer requisições à API do backend.
 
-<h3> ⚙️ Backend</h3>
+<h3>Backend</h3>
 
 *   **Node.js:** Um ambiente de execução JavaScript assíncrono e orientado a eventos.
 *   **Express.js:** Um framework de Node.js, utilizado para construir a API RESTful.
@@ -34,3 +34,35 @@ Este projeto foi desenvolvido utilizando um stack moderno e eficiente, dividindo
 *   **Bcrypt.js:** Uma biblioteca para hash de senhas, garantindo a segurança das credenciais dos usuários.
 *   **CORS (Cross-Origin Resource Sharing):** Para permitir requisições de origens diferentes entre o frontend e o backend.
 *   **Dotenv:** Para carregar variáveis de ambiente de um arquivo `.env`, gerenciando configurações sensíveis de forma segura.
+
+<h2>Como instalar o projeto</h2>
+
+### Pré-requisitos
+
+- Node.js instalado
+- npm instalado
+- MongoDB Atlas (ou outra instância MongoDB)
+- Variáveis de ambiente configuradas
+
+---
+### Backend
+
+```bash
+cd backend
+npm install
+```
+
+#### Crie um arquivo .env dentro da pasta backend com o seguinte conteúdo:
+```bash
+DB_USER=seu_usuario
+DB_PASS=sua_senha
+SECRET_KEY=sua_chave_secreta
+```
+---
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run serve
+```
