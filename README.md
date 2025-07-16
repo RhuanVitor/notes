@@ -56,7 +56,7 @@ npm install
 ```bash
 DB_USER=seu_usuario
 DB_PASS=sua_senha
-SECRET_KEY=sua_chave_secreta
+secret_key=sua_chave_secreta
 ```
 ---
 ### Frontend
